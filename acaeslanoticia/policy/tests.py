@@ -1,15 +1,15 @@
-import unittest
+# -*- coding: utf-8 -*-
 
-#from zope.testing import doctestunit
-#from zope.component import testing
-from Testing import ZopeTestCase as ztc
-
+# from zope.testing import doctestunit
+# from zope.component import testing
 from Products.Five import fiveconfigure
 from Products.PloneTestCase import PloneTestCase as ptc
 from Products.PloneTestCase.layer import PloneSite
-ptc.setupPloneSite()
-
+from Testing import ZopeTestCase as ztc
 import acaeslanoticia.policy
+import unittest
+
+ptc.setupPloneSite()
 
 
 class TestCase(ptc.PloneTestCase):
@@ -31,25 +31,25 @@ def test_suite():
     return unittest.TestSuite([
 
         # Unit tests
-        #doctestunit.DocFileSuite(
-        #    'README.txt', package='acaeslanoticia.policy',
-        #    setUp=testing.setUp, tearDown=testing.tearDown),
+        # doctestunit.DocFileSuite(
+        #     'README.txt', package='acaeslanoticia.policy',
+        #     setUp=testing.setUp, tearDown=testing.tearDown),
 
-        #doctestunit.DocTestSuite(
-        #    module='acaeslanoticia.policy.mymodule',
-        #    setUp=testing.setUp, tearDown=testing.tearDown),
+        # doctestunit.DocTestSuite(
+        #     module='acaeslanoticia.policy.mymodule',
+        #     setUp=testing.setUp, tearDown=testing.tearDown),
 
 
         # Integration tests that use PloneTestCase
-        #ztc.ZopeDocFileSuite(
-        #    'README.txt', package='acaeslanoticia.policy',
-        #    test_class=TestCase),
+        # ztc.ZopeDocFileSuite(
+        #     'README.txt', package='acaeslanoticia.policy',
+        #     test_class=TestCase),
 
-        #ztc.FunctionalDocFileSuite(
-        #    'browser.txt', package='acaeslanoticia.policy',
-        #    test_class=TestCase),
+        # ztc.FunctionalDocFileSuite(
+        #     'browser.txt', package='acaeslanoticia.policy',
+        #     test_class=TestCase),
 
-        ])
+    ])
 
 if __name__ == '__main__':
     unittest.main(defaultTest='test_suite')
