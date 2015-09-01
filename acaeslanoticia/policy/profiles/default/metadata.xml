@@ -9,7 +9,6 @@
    <dependency>profile-collective.disqus:default</dependency>
    <dependency>profile-collective.nitf:default</dependency>
    <dependency>profile-collective.polls:default</dependency>
-   <dependency>profile-collective.twitter.tweet:default</dependency>
    <dependency>profile-collective.upload:default</dependency>
    <dependency>profile-sc.social.like:default</dependency>
   </dependencies>
