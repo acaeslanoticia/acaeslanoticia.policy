@@ -27,6 +27,7 @@ setup(name='acaeslanoticia.policy',
           'setuptools',
           'plone.api==1.3.3',
           # -*- Extra requirements: -*-
+          'Products.Doormat==1.0',
           'brasil.gov.tiles',
           # 'acaeslanoticia.theme',
           'brasil.gov.tiles',
