@@ -33,7 +33,7 @@ Insignias de calidad
 Dependencias del sitio
 ----------------------
 
-Dependencias usadas en el sitio de Canaima GNU/Linux.
+Dependencias usadas en el sitio de ACA es la Noticia (Agencia Comunicacional Alternativa).
 
 .. list-table:: Dependencias extras
    :widths: 10 10 10 10
