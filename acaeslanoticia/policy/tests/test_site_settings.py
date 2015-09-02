@@ -62,6 +62,10 @@ class SiteSettingsTestCase(unittest.TestCase):
         """ This method test that ensure if expose the DC Meta Tags is enabled. """
         self.assertEqual(self.portal_properties.site_properties.exposeDCMetaTags, True)
 
+    def test_external_links_open_new_window_is_enabled(self):
+        """ This method test that ensure if external links is open into a new_window. """
+        self.assertEqual(self.portal_properties.site_properties.external_links_open_new_window, True)
+
     def test_mailhost_smtp_host(self):
         """ This method test that ensure the mail host is the same. """
         self.assertTrue(self.mailhost.smtp_host, 'localhost')

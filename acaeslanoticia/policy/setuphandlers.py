@@ -465,6 +465,7 @@ def configure_site_properties(site):
     properties.site_properties.use_email_as_login = True
     properties.site_properties.enable_sitemap = True
     properties.site_properties.exposeDCMetaTags = True
+    properties.site_properties.external_links_open_new_window = True
     logger.info('Propiedades del sitio configuradas!')
 
     # Member data properties.
