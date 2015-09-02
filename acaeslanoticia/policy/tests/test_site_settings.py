@@ -58,6 +58,10 @@ class SiteSettingsTestCase(unittest.TestCase):
         """ This method test that ensure the sitemap is enabled. """
         self.assertEqual(self.portal_properties.site_properties.enable_sitemap, True)
 
+    def test_expose_dc_metatags_is_enabled(self):
+        """ This method test that ensure if expose the DC Meta Tags is enabled. """
+        self.assertEqual(self.portal_properties.site_properties.exposeDCMetaTags, True)
+
     def test_mailhost_smtp_host(self):
         """ This method test that ensure the mail host is the same. """
         self.assertTrue(self.mailhost.smtp_host, 'localhost')

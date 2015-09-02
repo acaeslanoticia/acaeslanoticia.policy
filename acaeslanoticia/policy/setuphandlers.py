@@ -464,6 +464,7 @@ def configure_site_properties(site):
     properties.site_properties.default_language = 'es'
     properties.site_properties.use_email_as_login = True
     properties.site_properties.enable_sitemap = True
+    properties.site_properties.exposeDCMetaTags = True
     logger.info('Propiedades del sitio configuradas!')
 
     # Member data properties.
