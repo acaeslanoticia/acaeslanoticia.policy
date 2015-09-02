@@ -50,6 +50,14 @@ class SiteSettingsTestCase(unittest.TestCase):
         """ This method test that ensure the livesearch is disabled. """
         self.assertFalse(self.portal_properties.site_properties.enable_livesearch)
 
+    def test_use_email_as_login(self):
+        """ This method test that ensure use email as login is enabled. """
+        self.assertEqual(self.portal_properties.site_properties.use_email_as_login, True)
+
+    def test_sitemap_is_enabled(self):
+        """ This method test that ensure the sitemap is enabled. """
+        self.assertEqual(self.portal_properties.site_properties.enable_sitemap, True)
+
     def test_mailhost_smtp_host(self):
         """ This method test that ensure the mail host is the same. """
         self.assertTrue(self.mailhost.smtp_host, 'localhost')
