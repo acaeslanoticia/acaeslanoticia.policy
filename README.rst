@@ -53,6 +53,7 @@ Dependencias usadas en el sitio de ACA es la Noticia (Agencia Comunicacional Alt
      - |brasil.gov.tiles.c|
      - |brasil.gov.tiles.v|
    * - acaeslanoticia.theme
+     - |acaeslanoticia.theme.v|
      - |acaeslanoticia.theme.t|
      - |acaeslanoticia.theme.c|
    * - collective.disqus
