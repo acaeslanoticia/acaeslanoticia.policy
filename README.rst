@@ -24,10 +24,6 @@ Este proyecto debe ser instalado usando configuraciones buildout. Debe leer el a
 Insignias de calidad
 --------------------
 
-.. image:: https://d2weczhvl823v0.cloudfront.net/acaeslanoticia/acaeslanoticia.policy/trend.png
-   :alt: Bitdeli badge
-   :target: https://bitdeli.com/free
-
 .. image:: https://travis-ci.org/acaeslanoticia/acaeslanoticia.policy.svg?branch=master
    :target: https://travis-ci.org/acaeslanoticia/acaeslanoticia.policy
 
@@ -143,7 +139,7 @@ Colaboraciones impresionantes
 
 * Nombre Completo aka apodo
 
-Par una lista actualizada de todo los colaboradores visite: https://github.com/canaimagnulinux/acaeslanoticia.policy/contributors
+Par una lista actualizada de todo los colaboradores visite: https://github.com/acaeslanoticia/acaeslanoticia.policy/contributors
 
 .. _apertura de un ticket de soporte: https://github.com/acaeslanoticia/acaeslanoticia.policy/issues
 
@@ -173,7 +169,7 @@ Par una lista actualizada de todo los colaboradores visite: https://github.com/c
 .. |acaeslanoticia.theme.t| image:: https://secure.travis-ci.org/acaeslanoticia/acaeslanoticia.theme.png
    :target: http://travis-ci.org/acaeslanoticia/acaeslanoticia.theme
 .. |acaeslanoticia.theme.c| image:: https://coveralls.io/repos/acaeslanoticia/acaeslanoticia.theme/badge.png?branch=master
-   :target: https://coveralls.io/r/acaeslanoticia/canaimagnulinux.web.theme
+   :target: https://coveralls.io/r/acaeslanoticia/acaeslanoticia.theme
 
 .. |collective.cover.v| image:: http://img.shields.io/pypi/v/collective.cover.svg
    :target: https://pypi.python.org/pypi/collective.cover
