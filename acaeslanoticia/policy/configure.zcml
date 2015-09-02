@@ -18,4 +18,14 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <!-- Hidden products -->
+  <utility
+      factory=".setuphandlers.HiddenProducts"
+      name="acaeslanoticia.policy" />
+
+  <!-- Hidden profiles -->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="acaeslanoticia.policy" />
+
 </configure>

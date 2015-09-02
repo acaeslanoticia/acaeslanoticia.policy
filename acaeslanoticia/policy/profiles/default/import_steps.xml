@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<import-steps>
+
+  <import-step id="acaeslanoticia.policy.various"
+               version="20150801-01"
+               handler="acaeslanoticia.policy.setuphandlers.setupVarious"
+               title="A.C.A. es la noticia: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+
+</import-steps>
