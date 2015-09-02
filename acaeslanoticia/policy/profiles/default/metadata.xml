@@ -11,6 +11,7 @@
    <dependency>profile-collective.polls:default</dependency>
    <dependency>profile-collective.upload:default</dependency>
    <dependency>profile-plone.app.caching:default</dependency>
+   <dependency>profile-plone.app.theming:default</dependency>
    <dependency>profile-sc.social.like:default</dependency>
   </dependencies>
 </metadata>
