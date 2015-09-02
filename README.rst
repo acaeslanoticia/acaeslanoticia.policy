@@ -20,15 +20,15 @@ Instalación
 Este proyecto debe ser instalado usando configuraciones buildout. Debe leer el archivo
 ``INSTALL.txt`` en la carpeta ``docs`` de este producto.
 
+..
+  Insignias de calidad
+  --------------------
 
-Insignias de calidad
---------------------
+  .. image:: https://travis-ci.org/acaeslanoticia/acaeslanoticia.policy.svg?branch=master
+     :target: https://travis-ci.org/acaeslanoticia/acaeslanoticia.policy
 
-.. image:: https://travis-ci.org/acaeslanoticia/acaeslanoticia.policy.svg?branch=master
-   :target: https://travis-ci.org/acaeslanoticia/acaeslanoticia.policy
-
-.. image:: https://coveralls.io/repos/acaeslanoticia/acaeslanoticia.policy/badge.png
-   :target: https://coveralls.io/r/acaeslanoticia/acaeslanoticia.policy
+  .. image:: https://coveralls.io/repos/acaeslanoticia/acaeslanoticia.policy/badge.png
+     :target: https://coveralls.io/r/acaeslanoticia/acaeslanoticia.policy
 
 Dependencias del sitio
 ----------------------
@@ -233,4 +233,3 @@ Par una lista actualizada de todo los colaboradores visite: https://github.com/a
    :target: http://travis-ci.org/collective/sc.social.like
 .. |sc.social.like.c| image:: https://coveralls.io/repos/collective/sc.social.like/badge.png?branch=master
    :target: https://coveralls.io/r/collective/sc.social.like
-
