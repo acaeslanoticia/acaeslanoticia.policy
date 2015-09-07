@@ -68,4 +68,8 @@ class SiteSettingsTestCase(unittest.TestCase):
 
     def test_mailhost_smtp_host(self):
         """ This method test that ensure the mail host is the same. """
-        self.assertTrue(self.mailhost.smtp_host, 'localhost')
+        self.assertTrue(self.mailhost.smtp_host, 'smtp.gmail.com')
+
+    def test_mailhost_smtp_port(self):
+        """ This method test that ensure the mail host is the same. """
+        self.assertTrue(self.mailhost.smtp_port, '587')

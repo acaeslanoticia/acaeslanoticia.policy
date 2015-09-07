@@ -100,8 +100,8 @@ HIDDEN_PROFILES = [
 
 MAILHOST_CONFIGURATION = {
     'configure': True,
-    'smtphost': 'localhost',
-    'smtpport': 25,
+    'smtphost': 'smtp.gmail.com',
+    'smtpport': 587,
     'fromemailname': 'Portal A.C.A. es la Noticia',
     'fromemailaddress': 'acaeslanoticia@gmail.com'
 }
