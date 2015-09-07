@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<portlets>
+ <assignment name="navigation" category="context" key="/"
+    manager="plone.leftcolumn" type="portlets.Navigation" visible="False">
+  <property name="topLevel">1</property>
+  <property name="currentFolderOnly">False</property>
+  <property name="name"></property>
+  <property name="includeTop">False</property>
+  <property name="bottomLevel">0</property>
+  <property name="root"/>
+ </assignment>
+ <assignment name="news" category="context" key="/"
+    manager="plone.rightcolumn" type="portlets.News" visible="False">
+  <property name="count">5</property>
+  <property name="state">
+   <element>published</element>
+  </property>
+ </assignment>
+ <assignment name="events" category="context" key="/"
+    manager="plone.rightcolumn" type="portlets.Events" visible="False">
+  <property name="count">5</property>
+  <property name="state">
+   <element>published</element>
+  </property>
+ </assignment>
+ <assignment name="twitter" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;b/&gt;Twitter&lt;/b&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">Twitter - A.C.A. es la Noticia</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="latest-sectionable-nitf" category="context" key="/"
+    manager="plone.rightcolumn"
+    type="collective.nitf.LatestSectionableNITFPortlet" visible="True">
+  <property name="pretty_date">True</property>
+  <property name="header">Últimas noticias</property>
+  <property name="limit">3</property>
+  <property name="filter_collection"/>
+ </assignment>
+ <assignment name="banner-dr-gym" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;a href="#" title="DR. GYM"&gt;&lt;img class="image-inline" src="dr-gym.png" alt="DR. GYM" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">DR. GYM</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="banner-redes" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;a href="#" title="Redes"&gt;&lt;img class="image-inline" src="redes.png" alt="Redes" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">Redes</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="banner-canteras-marmoles" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;a href="#" title="Canteras y Mármoles"&gt;&lt;img class="image-inline" src="canteras-marmoles.png" alt="Canteras y Mármoles" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">Canteras y Mármoles</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="banner-crv" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;a href="#" title="CRV"&gt;&lt;img class="image-inline" src="crv.png" alt="CRV" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">CRV</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="facebook" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;b/&gt;Facebook&lt;/b&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">Facebook</property>
+  <property name="footer"/>
+ </assignment>
+</portlets>
