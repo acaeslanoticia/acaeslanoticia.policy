@@ -33,6 +33,16 @@
   <property name="header">Twitter - A.C.A. es la Noticia</property>
   <property name="footer"/>
  </assignment>
+ <assignment name="publicidad" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;a href="#" title=""&gt;&lt;img class="image-inline" src="publicidad.png" alt="" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">True</property>
+  <property name="header">Publicidad</property>
+  <property name="footer"/>
+ </assignment>
  <assignment name="latest-sectionable-nitf" category="context" key="/"
     manager="plone.rightcolumn"
     type="collective.nitf.LatestSectionableNITFPortlet" visible="True">
