@@ -114,8 +114,7 @@ SITE_STRUCTURE = [
         type='collective.cover.content',
         title=u'Portada',
         description=u'Objeto que componen la página principal del sitio. (Atención: Este objeto no debe suprimirse)',
-        text=u'',
-        # template_layout='Portada inicio',
+        # template_layout='ACA es la Noticia Principal',
         excludeFromNav=True,
     ),
     dict(
