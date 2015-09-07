@@ -1,0 +1,87 @@
+<registry>
+  <record name="collective.cover.controlpanel.ICoverSettings.available_tiles" interface="collective.cover.controlpanel.ICoverSettings" field="available_tiles">
+    <field type="plone.registry.field.List">
+      <default>
+        <element>collective.cover.banner</element>
+        <element>collective.cover.basic</element>
+        <element>collective.cover.carousel</element>
+        <element>collective.cover.collection</element>
+        <element>collective.cover.contentbody</element>
+        <element>collective.cover.embed</element>
+        <element>collective.cover.file</element>
+        <element>collective.cover.list</element>
+        <element>collective.cover.richtext</element>
+      </default>
+      <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="collective.cover" ns0:translate="">This tiles will be available for layout creation.</description>
+      <title xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="collective.cover" ns0:translate="">Available tiles</title>
+      <value_type type="plone.registry.field.Choice">
+        <vocabulary>collective.cover.EnabledTiles</vocabulary>
+      </value_type>
+    </field>
+    <value>
+      <element>collective.cover.banner</element>
+      <element>collective.cover.basic</element>
+      <element>collective.cover.carousel</element>
+      <element>collective.cover.collection</element>
+      <element>collective.cover.contentbody</element>
+      <element>collective.cover.embed</element>
+      <element>collective.cover.file</element>
+      <element>collective.cover.list</element>
+      <element>collective.cover.richtext</element>
+      <element>social</element>
+      <element>albuns</element>
+      <element>em_destaque</element>
+      <element>nitf</element>
+      <element>poll</element>
+      <element>destaque</element>
+      <element>videogallery</element>
+      <element>audio</element>
+      <element>audiogallery</element>
+      <element>mediacarousel</element>
+      <element>standaloneheader</element>
+      <element>video</element>
+      <element>banner_rotativo</element>
+    </value>
+  </record>
+  <record name="collective.cover.controlpanel.ICoverSettings.layouts" interface="collective.cover.controlpanel.ICoverSettings" field="layouts">
+    <field type="plone.registry.field.Dict">
+      <key_type type="plone.registry.field.TextLine"/>
+      <value_type type="plone.registry.field.TextLine"/>
+    </field>
+    <value>
+      <element key="Layout B">[{"type": "row", "class": "row", "children": [{"id": "group1", "type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "4ebc5e6678044918b76280ec0204041a"}]}, {"type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.list", "type": "tile", "class": "tile", "id": "7d68fd4cf0e34073aea99568f1e8eef6"}]}]}, {"type": "row", "class": "row", "children": [{"id": "group2", "type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "03fbc0eccfb446debef114ebfa49a14c"}]}, {"type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.list", "type": "tile", "class": "tile", "id": "d9892b66d47547fb99cfa4ac9802b2c3"}]}]}]</element>
+      <element key="Layout C">[{"type": "row", "class": "row", "children": [{"id": "group1", "type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "33ab4627d26a4e868bb6044d5f270633"}]}, {"type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "ff53063434ea4be1968c19a94ae57a29"}]}]}, {"type": "row", "class": "row", "children": [{"id": "group2", "type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.list", "type": "tile", "class": "tile", "id": "c57800cb56dc44ccae531517af725c2e"}]}, {"type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.list", "type": "tile", "class": "tile", "id": "81af4c0eb99343e286a4a07c15c40c2c"}]}]}]</element>
+      <element key="Layout A">[{"type": "row", "class": "row", "children": [{"id": "group1", "type": "group", "data":{"column-size":16, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.carousel", "type": "tile", "class": "tile", "id": "d34acf7c70084016810946f9039ffb67"}]}]}, {"type": "row", "class": "row", "children": [{"type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.list", "type": "tile", "class": "tile", "id": "7bb03c26b2504b8a9cadf5b852cc8a2c"}]}, {"type": "group", "data":{"column-size":8, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.collection", "type": "tile", "class": "tile", "id": "cc6d0ff688a143b38d64db2493ca74ce"}]}]}, {"type": "row", "class": "row", "children": [{"id": "group2", "type": "group", "data":{"column-size":5, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "6673d5554e934b4396790a92698e32d0"}]}, {"type": "group", "data":{"column-size":5, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "db093ff0b98c4475aeb4cb7c3a78e9ba"}]}, {"type": "group", "data":{"column-size":5, "layout-type":"column"}, "roles": ["Manager"], "children": [{"tile-type": "collective.cover.basic", "type": "tile", "class": "tile", "id": "bfe62e09db9e4a538f92dbeda8db42de"}]}]}]</element>
+      <element key="ACA es la Noticia - Portada">[{"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 11}, "type": "group", "children": [{"tile-type": "collective.cover.list", "type": "tile", "id": "7abe90e0b5a9463eaf9471ebbcc071d5"}], "roles": ["Manager", "Site Administrator", "Editor"]}, {"data": {"layout-type": "column", "column-size": 5}, "type": "group", "children": [{"tile-type": "collective.cover.collection", "type": "tile", "id": "f1e03107f0fa4683b82b6b77694ae6bf"}], "roles": ["Manager", "Site Administrator", "Editor"]}]}, {"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 6}, "type": "group", "children": [{"tile-type": "collective.cover.collection", "type": "tile", "id": "d387012ba9d34f26acefe9312d0caa71"}], "roles": ["Manager", "Site Administrator", "Editor"]}, {"data": {"layout-type": "column", "column-size": 5}, "type": "group", "children": [{"tile-type": "collective.cover.collection", "type": "tile", "id": "fdef5b0846b84f3dac9be78552a76f36"}], "roles": ["Manager", "Site Administrator", "Editor"]}, {"data": {"layout-type": "column", "column-size": 5}, "type": "group", "children": [{"tile-type": "collective.cover.collection", "type": "tile", "id": "9d1d63218bf24c5ba845eb8574611547"}], "roles": ["Manager", "Site Administrator", "Editor"]}]}, {"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 16}, "type": "group", "children": [{"tile-type": "collective.cover.banner", "type": "tile", "id": "c9f1045fe2f54598a45f473045693e9f"}], "roles": ["Manager", "Site Administrator", "Editor"]}]}, {"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 16}, "type": "group", "children": [{"tile-type": "collective.cover.embed", "type": "tile", "id": "12de7964c8534dbda4e1bddc3c3a281e"}], "roles": ["Manager", "Site Administrator", "Editor"]}]}]</element>
+      <element key="Empty layout">[{"type": "row", "class": "row", "children": [{"type": "group", "data":{"column-size":16, "layout-type":"column"}, "roles": ["Manager", "Site Administrator", "Editor"]}]}]</element>
+    </value>
+  </record>
+  <record name="collective.cover.controlpanel.ICoverSettings.searchable_content_types" interface="collective.cover.controlpanel.ICoverSettings" field="searchable_content_types">
+    <field type="plone.registry.field.List">
+      <default>
+        <element>Collection</element>
+        <element>Document</element>
+        <element>File</element>
+        <element>Form Folder</element>
+        <element>Image</element>
+        <element>Link</element>
+      </default>
+      <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="collective.cover" ns0:translate="">Only objects of these content types will be searched on the content chooser.</description>
+      <required>False</required>
+      <title xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="collective.cover" ns0:translate="">Searchable Content Types</title>
+      <value_type type="plone.registry.field.Choice">
+        <vocabulary>collective.cover.AvailableContentTypes</vocabulary>
+      </value_type>
+    </field>
+    <value>
+      <element>Collection</element>
+      <element>Document</element>
+      <element>File</element>
+      <element>Image</element>
+      <element>Link</element>
+      <element>News Item</element>
+      <element>collective.nitf.content</element>
+      <element>collective.polls.poll</element>
+    </value>
+  </record>
+</registry>
