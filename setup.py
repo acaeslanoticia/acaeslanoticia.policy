@@ -35,7 +35,9 @@ setup(name='acaeslanoticia.policy',
           'collective.opendata==1.0a2',
           'collective.upload==1.0rc1',
           'ftw.avatar',
+          'ps.plone.zmi',
           'sc.social.like==2.2',
+          'z3c.jbot',
       ],
       extras_require={
           'test': [
