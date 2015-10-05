@@ -142,7 +142,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -178,7 +178,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -214,7 +214,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -250,7 +250,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -286,7 +286,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -322,7 +322,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -358,7 +358,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -394,7 +394,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -430,7 +430,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -466,7 +466,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -502,7 +502,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -538,7 +538,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -574,7 +574,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
@@ -610,7 +610,7 @@ SITE_STRUCTURE = [
             dict(
                 i='portal_type',
                 o='plone.app.querystring.operation.selection.is',
-                v='Document',
+                v='collective.nitf.content',
             ),
             dict(
                 i='path',
