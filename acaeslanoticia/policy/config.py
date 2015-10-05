@@ -600,6 +600,13 @@ SITE_STRUCTURE = [
         subjects=(u'Sección', u'Noticias', u'Logros en Revolución')
     ),
     dict(
+        type='Folder',
+        title=u'Galería',
+        description=u'Sección creada para mostrar, las fotos más destacadas de eventos.',
+        _layout='atct_album_view',
+        _addable_types=['Folder', 'Image'],
+    ),
+    dict(
         type='Collection',
         title=u'Colabora con A.C.A es la Noticia',
         description=u'Sección de noticias Colabora con A.C.A es la Noticia',
