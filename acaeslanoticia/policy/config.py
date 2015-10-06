@@ -313,42 +313,6 @@ SITE_STRUCTURE = [
     ),
     dict(
         type='Collection',
-        title=u'Comunidad',
-        description=u'Sección de noticias Comunidad.',
-        sort_reversed=True,
-        sort_on=u'effective',
-        limit=1000,
-        query=[
-            dict(
-                i='portal_type',
-                o='plone.app.querystring.operation.selection.is',
-                v='collective.nitf.content',
-            ),
-            dict(
-                i='path',
-                o='plone.app.querystring.operation.string.relativePath',
-                v='../articulos',
-            ),
-            dict(
-                i='review_state',
-                o='plone.app.querystring.operation.selection.is',
-                v=['published'],
-            ),
-            dict(
-                i='section',
-                o='plone.app.querystring.operation.selection.is',
-                v=['Comunidad'],
-            ),
-            dict(
-                i='genre',
-                o='plone.app.querystring.operation.selection.is',
-                v=[u'Current'],
-            ),
-        ],
-        subjects=(u'Sección', u'Noticias', u'Comunidad')
-    ),
-    dict(
-        type='Collection',
         title=u'Opinión',
         description=u'Sección de noticias Opinión.',
         sort_reversed=True,
@@ -493,8 +457,8 @@ SITE_STRUCTURE = [
     ),
     dict(
         type='Collection',
-        title=u'Ecosocialismo y biodiversidad',
-        description=u'Sección de noticias Ecosocialismo y biodiversidad.',
+        title=u'Medio ambiente',
+        description=u'Sección de noticias Medio ambiente.',
         sort_reversed=True,
         sort_on=u'effective',
         limit=1000,
@@ -517,7 +481,7 @@ SITE_STRUCTURE = [
             dict(
                 i='section',
                 o='plone.app.querystring.operation.selection.is',
-                v=['Ecosocialismo y biodiversidad'],
+                v=['Medio ambiente'],
             ),
             dict(
                 i='genre',
@@ -525,12 +489,12 @@ SITE_STRUCTURE = [
                 v=[u'Current'],
             ),
         ],
-        subjects=(u'Sección', u'Noticias', u'Ecosocialismo y biodiversidad')
+        subjects=(u'Sección', u'Noticias', u'Medio ambiente')
     ),
     dict(
         type='Collection',
-        title=u'Deportes A.C.A.',
-        description=u'Sección de noticias Deportes A.C.A.',
+        title=u'Deportes',
+        description=u'Sección de noticias Deportes.',
         sort_reversed=True,
         sort_on=u'effective',
         limit=1000,
@@ -553,7 +517,7 @@ SITE_STRUCTURE = [
             dict(
                 i='section',
                 o='plone.app.querystring.operation.selection.is',
-                v=['Deportes A.C.A.'],
+                v=['Deportes'],
             ),
             dict(
                 i='genre',
@@ -561,12 +525,12 @@ SITE_STRUCTURE = [
                 v=[u'Current'],
             ),
         ],
-        subjects=(u'Sección', u'Noticias', u'Deportes A.C.A.')
+        subjects=(u'Sección', u'Noticias', u'Deportes')
     ),
     dict(
         type='Collection',
-        title=u'Logros en Revolución',
-        description=u'Sección de noticias Logros en Revolución',
+        title=u'Institucionales',
+        description=u'Sección de noticias Institucionales.',
         sort_reversed=True,
         sort_on=u'effective',
         limit=1000,
@@ -589,7 +553,7 @@ SITE_STRUCTURE = [
             dict(
                 i='section',
                 o='plone.app.querystring.operation.selection.is',
-                v=['Logros en Revolución'],
+                v=['Institucionales'],
             ),
             dict(
                 i='genre',
@@ -597,7 +561,7 @@ SITE_STRUCTURE = [
                 v=[u'Current'],
             ),
         ],
-        subjects=(u'Sección', u'Noticias', u'Logros en Revolución')
+        subjects=(u'Sección', u'Noticias', u'Institucionales')
     ),
     dict(
         type='Folder',
@@ -608,8 +572,8 @@ SITE_STRUCTURE = [
     ),
     dict(
         type='Collection',
-        title=u'Colabora con A.C.A es la Noticia',
-        description=u'Sección de noticias Colabora con A.C.A es la Noticia',
+        title=u'Anuncia con Nosotros',
+        description=u'Sección de noticias Anuncia con Nosotros.',
         sort_reversed=True,
         sort_on=u'effective',
         limit=1000,
@@ -632,7 +596,7 @@ SITE_STRUCTURE = [
             dict(
                 i='section',
                 o='plone.app.querystring.operation.selection.is',
-                v=['Colabora con A.C.A es la Noticia'],
+                v=['Anuncia con Nosotros'],
             ),
             dict(
                 i='genre',
@@ -640,7 +604,7 @@ SITE_STRUCTURE = [
                 v=[u'Current'],
             ),
         ],
-        subjects=(u'Sección', u'Noticias', u'Colabora con A.C.A es la Noticia')
+        subjects=(u'Sección', u'Noticias', u'Anuncia con Nosotros')
     ),
 ]
 
