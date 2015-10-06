@@ -43,15 +43,14 @@ class SiteStructureTestCase(unittest.TestCase):
         self.assertIn('internacional', existing)
         self.assertIn('economia', existing)
         self.assertIn('cultura', existing)
-        self.assertIn('comunidad', existing)
         self.assertIn('opinion', existing)
         self.assertIn('educacion', existing)
         self.assertIn('formacion', existing)
         self.assertIn('ciencia-y-tecnologia', existing)
-        self.assertIn('ecosocialismo-y-biodiversidad', existing)
-        self.assertIn('deportes-a-c-a', existing)
-        self.assertIn('logros-en-revolucion', existing)
-        self.assertIn('colabora-con-a-c-a-es-la-noticia', existing)
+        self.assertIn('medio-ambiente', existing)
+        self.assertIn('deportes', existing)
+        self.assertIn('institucionales', existing)
+        self.assertIn('anuncia-con-nosotros', existing)
 
     def test_site_default_page_defined(self):
         """ This method test if the site default page is defined. """

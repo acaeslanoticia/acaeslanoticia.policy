@@ -299,7 +299,7 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-6']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Comunidad'
+    title = u'Opinión'
     obj_target = site['pie-de-pagina']['columna-6']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
@@ -318,7 +318,7 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-7']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Opinión'
+    title = u'Educación'
     obj_target = site['pie-de-pagina']['columna-7']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
@@ -337,7 +337,7 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-8']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Educación'
+    title = u'Formación'
     obj_target = site['pie-de-pagina']['columna-8']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
@@ -356,7 +356,7 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-9']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Formación'
+    title = u'Ciencia y Tecnología'
     obj_target = site['pie-de-pagina']['columna-9']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
@@ -375,7 +375,7 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-10']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Ciencia y Tecnología'
+    title = u'Medio ambiente'
     obj_target = site['pie-de-pagina']['columna-10']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
@@ -394,7 +394,7 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-11']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Ecosocialismo y biodiversidad'
+    title = u'Deportes'
     obj_target = site['pie-de-pagina']['columna-11']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
@@ -413,9 +413,10 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-12']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Deportes A.C.A.'
+    title = u'Institucionales'
     obj_target = site['pie-de-pagina']['columna-12']['seccion-1']
     obj_target.setShowTitle(False)
+    obj_target.reindexObject()
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
 
     # Column 13
@@ -432,28 +433,8 @@ def set_footer_site(site):
     obj_target = site['pie-de-pagina']['columna-13']
     createContentType('DoormatSection', obj_target, title, None, 'publish', False)
 
-    title = u'Logros en Revolución'
+    title = u'Anuncia con Nosotros'
     obj_target = site['pie-de-pagina']['columna-13']['seccion-1']
-    obj_target.setShowTitle(False)
-    obj_target.reindexObject()
-    createContentType('DoormatReference', obj_target, title, None, 'publish', False)
-
-    # Column 14
-    title = u'Columna 14'
-    obj_target = site['pie-de-pagina']
-    obj = api.content.create(type='DoormatColumn', title=title, container=obj_target)
-    obj.setTitle(title)
-    obj.reindexObject('Title')
-    obj.setShowTitle(False)
-    api.content.transition(obj, 'publish')
-    logger.info('Created the {0} item'.format(obj))
-
-    title = u'Sección 1'
-    obj_target = site['pie-de-pagina']['columna-14']
-    createContentType('DoormatSection', obj_target, title, None, 'publish', False)
-
-    title = u'Colabora con A.C.A es la Noticia'
-    obj_target = site['pie-de-pagina']['columna-14']['seccion-1']
     obj_target.setShowTitle(False)
     createContentType('DoormatReference', obj_target, title, None, 'publish', False)
 
@@ -543,15 +524,14 @@ def setup_nitf_settings():
             u'Internacional',
             u'Economía',
             u'Cultura',
-            u'Comunidad',
             u'Opinión',
             u'Educación',
             u'Formación',
             u'Ciencia y Tecnología',
-            u'Ecosocialismo y biodiversidad',
-            u'Deportes A.C.A.',
-            u'Logros en Revolución',
-            u'Colabora con A.C.A es la Noticia'
+            u'Medio ambiente',
+            u'Deportes',
+            u'Institucionales',
+            u'Anuncia con Nosotros'
         ])
     )
     api.portal.set_registry_record(
