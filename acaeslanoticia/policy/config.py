@@ -162,7 +162,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Local')
@@ -198,7 +198,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Nacional')
@@ -234,7 +234,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Internacional')
@@ -270,7 +270,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Economía')
@@ -306,7 +306,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Cultura')
@@ -342,7 +342,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Comunidad')
@@ -378,7 +378,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Opinión')
@@ -414,7 +414,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Educación')
@@ -450,7 +450,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Formación')
@@ -486,7 +486,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Ciencia y Tecnología')
@@ -522,7 +522,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Ecosocialismo y biodiversidad')
@@ -558,7 +558,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Deportes A.C.A.')
@@ -594,7 +594,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Logros en Revolución')
@@ -637,7 +637,7 @@ SITE_STRUCTURE = [
             dict(
                 i='genre',
                 o='plone.app.querystring.operation.selection.is',
-                v=None,
+                v=[u'Current'],
             ),
         ],
         subjects=(u'Sección', u'Noticias', u'Colabora con A.C.A es la Noticia')
