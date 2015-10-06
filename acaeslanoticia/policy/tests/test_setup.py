@@ -116,15 +116,14 @@ class DependenciesSettingsTestCase(BaseTestCase):
                 u'Internacional',
                 u'Economía',
                 u'Cultura',
-                u'Comunidad',
                 u'Opinión',
                 u'Educación',
                 u'Formación',
                 u'Ciencia y Tecnología',
-                u'Ecosocialismo y biodiversidad',
-                u'Deportes A.C.A.',
-                u'Logros en Revolución',
-                u'Colabora con A.C.A es la Noticia'
+                u'Medio ambiente',
+                u'Deportes',
+                u'Institucionales',
+                u'Anuncia con Nosotros'
             ])
         )
         self.assertEqual(
