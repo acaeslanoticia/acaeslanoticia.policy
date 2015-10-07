@@ -57,6 +57,9 @@ class Fixture(PloneSandboxLayer):
         import collective.polls
         self.loadZCML(package=collective.polls)
 
+        import collective.sitelogo
+        self.loadZCML(package=collective.sitelogo)
+
         import collective.upload
         self.loadZCML(package=collective.upload)
 
