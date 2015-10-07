@@ -27,6 +27,7 @@ DEPENDENCIES = [
     'collective.nitf',
     'collective.opendata',
     'collective.polls',
+    'collective.plonetruegallery',
     'collective.sitelogo',
     'collective.upload',
     'plone.api',
