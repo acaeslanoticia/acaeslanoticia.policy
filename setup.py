@@ -37,10 +37,10 @@ setup(name='acaeslanoticia.policy',
           'collective.plonetruegallery==3.4.4',
           'collective.sitelogo',
           'collective.upload==1.0rc1',
-          'ftw.avatar',
-          'ps.plone.zmi',
+          'ftw.avatar==1.0.6',
+          'ps.plone.zmi==0.2',
           'sc.social.like==2.2',
-          'z3c.jbot',
+          'z3c.jbot==0.7.2',
       ],
       extras_require={
           'test': [

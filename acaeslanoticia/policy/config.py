@@ -605,7 +605,7 @@ SITE_STRUCTURE = [
         type='Folder',
         title=u'Galería',
         description=u'Sección creada para mostrar, las fotos más destacadas de eventos.',
-        #_layout='atct_album_view',
+        # _layout='atct_album_view',
         _layout='galleryview',
         _addable_types=['Folder', 'Image'],
     ),
