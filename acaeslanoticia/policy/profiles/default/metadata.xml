@@ -7,6 +7,7 @@
    <dependency>profile-collective.cover:default</dependency>
    <!--<dependency>profile-collective.googlenews:default</dependency>-->
    <dependency>profile-collective.disqus:default</dependency>
+   <dependency>profile-collective.newsticker:default</dependency>
    <dependency>profile-collective.nitf:default</dependency>
    <dependency>profile-collective.polls:default</dependency>
    <dependency>profile-collective.plonetruegallery:default</dependency>

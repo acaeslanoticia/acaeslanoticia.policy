@@ -509,6 +509,29 @@ def enable_mail_host(site, smtphost):
         pass
 
 
+def setup_newsticker_settings():
+    """ Custom settings for collective.newsticker """
+
+    api.portal.set_registry_record(
+        'collective.newsticker.controlpanel.INewsTickerSettings.controls',
+        False
+    )
+    api.portal.set_registry_record(
+        'collective.newsticker.controlpanel.INewsTickerSettings.pauseOnItems',
+        int(2000)
+    )
+    api.portal.set_registry_record(
+        'collective.newsticker.controlpanel.INewsTickerSettings.speed',
+        float(0.1)
+    )
+    api.portal.set_registry_record(
+        'collective.newsticker.controlpanel.INewsTickerSettings.titleText',
+        u'Lo más reciente'
+    )
+
+    logger.info('Configurado el producto collective.newsticker')
+
+
 def setup_nitf_settings():
     """ Custom settings for collective.nitf """
 
@@ -710,6 +733,7 @@ def setupVarious(context):
     configure_mail_host(portal)
     # Do this last so that mail smtp host configured before reinstallation will be maintained.
     enable_mail_host(portal, old_smtphost)
+    setup_newsticker_settings()
     setup_nitf_settings()
     # setup_nitf_google_news()
     # setup_google_analytics()

@@ -25,6 +25,7 @@ HIDDEN_PRODUCTS = [
     'collective.nitf',
     'collective.js.galleria',
     'collective.js.jqueryui',
+    'collective.newsticker',
     'collective.nitf.upgrades.v1007',
     'collective.polls',
     'collective.plonetruegallery',
@@ -69,6 +70,8 @@ HIDDEN_PROFILES = [
     'collective.disqus:default',
     'collective.disqus:upgrade',
     'collective.disqus:uninstall',
+    'collective.newsticker:default',
+    'collective.newsticker:uninstall',
     'collective.nitf:default',
     'collective.js.galleria:default',
     'collective.js.jqueryui:default',
@@ -137,6 +140,34 @@ SITE_STRUCTURE = [
         description=u'Imágenes de los artículos de noticias del sitio Web',
         _addable_types=['Folder', 'Image'],
         excludeFromNav=True,
+    ),
+    dict(
+        type='Collection',
+        title=u'Lo más reciente',
+        description=u'Las últimas noticias publicadas.',
+        # _transition='private',
+        _transition=None,
+        sort_reversed=True,
+        sort_on=u'effective',
+        limit=1000,
+        query=[
+            dict(
+                i='portal_type',
+                o='plone.app.querystring.operation.selection.is',
+                v='collective.nitf.content',
+            ),
+            dict(
+                i='path',
+                o='plone.app.querystring.operation.string.relativePath',
+                v='../articulos',
+            ),
+            dict(
+                i='review_state',
+                o='plone.app.querystring.operation.selection.is',
+                v=['published'],
+            ),
+        ],
+        subjects=(u'Barra', u'Últimas', u'Noticias')
     ),
     dict(
         type='Collection',

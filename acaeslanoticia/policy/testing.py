@@ -48,6 +48,9 @@ class Fixture(PloneSandboxLayer):
         import collective.disqus
         self.loadZCML(package=collective.disqus)
 
+        import collective.newsticker
+        self.loadZCML(package=collective.newsticker)
+
         import collective.nitf
         self.loadZCML(package=collective.nitf)
 

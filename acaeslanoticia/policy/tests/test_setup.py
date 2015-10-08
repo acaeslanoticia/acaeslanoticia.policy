@@ -24,6 +24,7 @@ DEPENDENCIES = [
     'collective.cover',
     'collective.disqus',
     # 'collective.googlenews',
+    'collective.newsticker',
     'collective.nitf',
     'collective.opendata',
     'collective.polls',
@@ -101,6 +102,28 @@ class DependenciesSettingsTestCase(BaseTestCase):
             api.portal.get_registry_record(
                 'collective.upload.interfaces.IUploadSettings.resize_max_height'),
             768
+        )
+
+    def test_news_ticker_settings(self):
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'collective.newsticker.controlpanel.INewsTickerSettings.controls'),
+            False
+        )
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'collective.newsticker.controlpanel.INewsTickerSettings.pauseOnItems'),
+            2000
+        )
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'collective.newsticker.controlpanel.INewsTickerSettings.speed'),
+            0.1
+        )
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'collective.newsticker.controlpanel.INewsTickerSettings.titleText'),
+            u'Lo más reciente'
         )
 
     def test_nitf_settings(self):
