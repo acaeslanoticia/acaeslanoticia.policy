@@ -147,6 +147,7 @@ SITE_STRUCTURE = [
         description=u'Las últimas noticias publicadas.',
         # _transition='private',
         _transition=None,
+        excludeFromNav=True,
         sort_reversed=True,
         sort_on=u'effective',
         limit=1000,
