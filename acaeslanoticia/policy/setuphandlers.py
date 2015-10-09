@@ -594,6 +594,8 @@ def setup_cache_settings():
         True
     )
 
+    logger.info('Configurado la cacheo en Plone')
+
 
 def setup_syndication_settings():
     """ Custom settings for Plone syndication """
