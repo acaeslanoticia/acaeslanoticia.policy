@@ -169,6 +169,13 @@ class DependenciesSettingsTestCase(BaseTestCase):
     #         ['collective.nitf.content']
     #     )
 
+    def test_discussion_settings(self):
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'plone.app.discussion.interfaces.IDiscussionSettings.globally_enabled'),
+            True
+        )
+
     def test_disqus_settings(self):
         self.assertEqual(
             api.portal.get_registry_record(

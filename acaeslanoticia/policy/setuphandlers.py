@@ -649,6 +649,16 @@ def setup_upload_settings():
     logger.info('Configurado el producto collective.upload')
 
 
+def setup_discussion_settings():
+    """ Custom settings for plone.app.discussion """
+
+    api.portal.set_registry_record(
+        'plone.app.discussion.interfaces.IDiscussionSettings.globally_enabled',
+        True
+    )
+    logger.info('Configurado el producto plone.app.discussion')
+
+
 def setup_disqus_settings():
     """ Custom settings for collective.disqus """
 
@@ -742,6 +752,7 @@ def setupVarious(context):
     setup_cache_settings()
     setup_syndication_settings()
     setup_upload_settings()
+    setup_discussion_settings()
     setup_disqus_settings()
     setup_social_likes_settings()
     # import_registry_settings()
