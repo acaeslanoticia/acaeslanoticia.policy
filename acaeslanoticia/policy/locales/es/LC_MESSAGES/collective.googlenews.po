@@ -1,0 +1,67 @@
+# Héctor Velarde <hector.velarde@gmail.com>, 2012.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2015-08-29 19:53+0000\n"
+"PO-Revision-Date: 2015-10-11 09:55-0430\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.googlenews\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: collective/googlenews/controlpanel.py:12
+msgid "Google News Settings"
+msgstr "Google Noticias"
+
+#: collective/googlenews/interfaces.py:27
+msgid "Keywords Mapping"
+msgstr "Mapeado de palabras clave"
+
+#: collective/googlenews/interfaces.py:9
+msgid "Pleasereadhttps://support.google.com/news/publisher/answer/116037"
+msgstr "Por favor, lea el siguiente articulo https://support.google.com/news/publisher/answer/116037?hl=es"
+
+#: collective/googlenews/interfaces.py:21
+msgid "Portal types"
+msgstr "Tipos de contenido"
+
+#: Profile description in configure.zcml
+msgid "Removes support for Google News from your site."
+msgstr "Elimina el soporte para Google Noticias de su sitio."
+
+#: collective/googlenews/interfaces.py:22
+msgid "Select portal types you want to apply digit id."
+msgstr "Seleccione los tipos de contenido a los que les quiere aplicar el digit ID."
+
+#: Profile title in configure.zcml
+msgid "Support for Google News"
+msgstr "Soporte para Google Noticias"
+
+#: Profile description in configure.zcml
+msgid "To include a site in Google News you need to comply with certain technical requirements. This package provides support for this."
+msgstr ""
+"Para incluir un sitio en Google Noticias es necesario cumplir con ciertos "
+"requerimientos técnicos . Este paquete proporciona soporte para ello."
+
+#: Profile title in configure.zcml
+msgid "collective.googlenews uninstall"
+msgstr "Desinstala collective.googlenews"
+
+#. Default: "You can configure the settings of collective.googlenews add-on"
+#: collective/googlenews/controlpanel.py:13
+msgid "controlpanel_desc"
+msgstr "Aquí puede configurar el paquete collective.googlenews."
+
+#: collective/googlenews/interfaces.py:29
+msgid "keyword|googlekeyword"
+msgstr ""
