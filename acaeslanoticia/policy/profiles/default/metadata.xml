@@ -5,7 +5,7 @@
    <!--<dependency>profile-acaeslanoticia.theme:default</dependency>-->
    <dependency>profile-brasil.gov.tiles:default</dependency>
    <dependency>profile-collective.cover:default</dependency>
-   <!--<dependency>profile-collective.googlenews:default</dependency>-->
+   <dependency>profile-collective.googlenews:default</dependency>
    <dependency>profile-collective.disqus:default</dependency>
    <dependency>profile-collective.newsticker:default</dependency>
    <dependency>profile-collective.nitf:default</dependency>

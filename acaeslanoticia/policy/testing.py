@@ -42,8 +42,8 @@ class Fixture(PloneSandboxLayer):
         import collective.cover
         self.loadZCML(package=collective.cover)
 
-        # import collective.googlenews
-        # self.loadZCML(package=collective.googlenews)
+        import collective.googlenews
+        self.loadZCML(package=collective.googlenews)
 
         import collective.disqus
         self.loadZCML(package=collective.disqus)

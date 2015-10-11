@@ -569,14 +569,18 @@ def setup_nitf_settings():
     logger.info('Configurado el tipo de contenido collective.nitf')
 
 
-# def setup_nitf_google_news():
-    # """ Setup collective.nitf content type in Google News """
+def setup_nitf_google_news():
+    """ Setup collective.nitf content type in Google News """
 
-    # api.portal.set_registry_record(
-    #     'collective.googlenews.interfaces.GoogleNewsSettings.portal_types',
-    #     ['collective.nitf.content']
-    # )
-    # logger.info('Configurado el producto collective.nitf con collective.googlenews')
+    api.portal.set_registry_record(
+        'collective.googlenews.interfaces.GoogleNewsSettings.portal_types',
+        ['collective.nitf.content']
+    )
+    api.portal.set_registry_record(
+        'collective.googlenews.interfaces.GoogleNewsSettings.keywords_mapping',
+        [u'<keywords>medios alternativos, periodismo digital, guerra de tercera generaci\xf3n, guerrilla medi\xe1tica, carabobo, Venezuela</keywords>']
+    )
+    logger.info('Configurado el producto collective.nitf con collective.googlenews')
 
 
 # def setup_google_analytics():
@@ -747,7 +751,7 @@ def setupVarious(context):
     enable_mail_host(portal, old_smtphost)
     setup_newsticker_settings()
     setup_nitf_settings()
-    # setup_nitf_google_news()
+    setup_nitf_google_news()
     # setup_google_analytics()
     setup_cache_settings()
     setup_syndication_settings()

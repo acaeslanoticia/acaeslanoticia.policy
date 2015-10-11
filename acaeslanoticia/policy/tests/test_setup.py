@@ -23,7 +23,7 @@ DEPENDENCIES = [
     # 'acaeslanoticia.theme',
     'collective.cover',
     'collective.disqus',
-    # 'collective.googlenews',
+    'collective.googlenews',
     'collective.newsticker',
     'collective.nitf',
     'collective.opendata',
@@ -162,12 +162,17 @@ class DependenciesSettingsTestCase(BaseTestCase):
             u'Local'
         )
 
-    # def test_nitf_google_news(self):
-    #     self.assertEqual(
-    #         api.portal.get_registry_record(
-    #             'collective.googlenews.interfaces.GoogleNewsSettings.portal_types'),
-    #         ['collective.nitf.content']
-    #     )
+    def test_nitf_google_news(self):
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'collective.googlenews.interfaces.GoogleNewsSettings.portal_types'),
+            ['collective.nitf.content']
+        )
+        self.assertEqual(
+            api.portal.get_registry_record(
+                'collective.googlenews.interfaces.GoogleNewsSettings.keywords_mapping',
+            [u'<keywords>medios alternativos, periodismo digital, guerra de tercera generaci\xf3n, guerrilla medi\xe1tica, carabobo, Venezuela</keywords>']
+        )
 
     def test_discussion_settings(self):
         self.assertEqual(
